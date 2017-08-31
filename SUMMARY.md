@@ -1,5 +1,15 @@
 # Summary
 
 * [Introduction](README.md)
-* [linux基础](linuxji-chu.md)
+* [linux](linuxji-chu.md)
+* [MySQL](mysql.md)
+* [MongoDB](mongodb.md)
+* [Redis](redis.md)
+* [python](python.md)
+* [python框架](pythonkuang-jia.md)
+* 爬虫
+* 数据可视化
+* 深度学习
+* 机器学习
+* 数据分析
 
