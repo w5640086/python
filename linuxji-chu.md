@@ -6,7 +6,5 @@ centos6.9 mini安装配置
 
 linux命令大全
 
-linux高级配置
-
 linux运维
 
