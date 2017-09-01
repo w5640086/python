@@ -297,13 +297,24 @@ su -切换到对应的用户时会将当前的工作目录自动转换到切换�
 如果是ubuntu平台，需要在命令前加“sudo”，如果在某些操作需要管理员才能操作，ubuntu无需切换到root用户即可操作，只需加“sudo”即可。
 sudo是ubuntu平台下允许系统管理员让普通用户执行一些或者全部的root命令的一个工具，减少了root 用户的登陆和管理时间，提高了安全性。
 
-su	切换到root用户
-su root	切换到root用户
-su -	切换到root用户，同时切换目录到/root
-su - root	切换到root用户，同时切换目录到/root
-su 普通用户	切换到普通用户
-su - 普通用户	切换到普通用户，同时切换普通用户所在的目录
+su    切换到root用户
+su root    切换到root用户
+su -    切换到root用户，同时切换目录到/root
+su - root    切换到root用户，同时切换目录到/root
+su 普通用户    切换到普通用户
+su - 普通用户    切换到普通用户，同时切换普通用户所在的目录
 ```
+
+### 查看有哪些用户组 {#查看有哪些用户组}
+
+```
+cat /etc/group
+groupmod +三次tab键
+```
+
+### 添加、删除组账号：groupadd、groupdel {#添加、删除组账号：groupadd、groupdel}
+
+
 
 
 
