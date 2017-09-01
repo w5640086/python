@@ -235,12 +235,14 @@ history  上下建  历史命令
 
     压缩用法：tar -jcvf 压缩包包名 文件...(tar jcvf bk.tar.bz2 *.c)
     解压用法：tar -jxvf 压缩包包名 (tar jxvf bk.tar.bz2)
-    
-    
+
+
     通过zip压缩文件的目标文件不需要指定扩展名，默认扩展名为zip。
     压缩文件：zip [-r] 目标文件(没有扩展名) 源文件
     解压文件：unzip -d 解压后目录文件 压缩文件
 ```
+
+### 查看命令位置：which {#查看命令位置：which}
 
 
 
