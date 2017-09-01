@@ -170,14 +170,15 @@ history  上下建  历史命令
 ### 查找文件：find {#查找文件：find}
 
 ```
-    find ./ -name test.sh	查找当前目录下所有名为test.sh的文件
-    find ./ -name '*.sh'	查找当前目录下所有后缀为.sh的文件
-    find ./ -name "[A-Z]*"	查找当前目录下所有以大写字母开头的文件
-    find /tmp -size 2M	查找在/tmp 目录下等于2M的文件
-    find /tmp -size +2M	查找在/tmp 目录下大于2M的文件
-    find /tmp -size -2M	查找在/tmp 目录下小于2M的文件
-    find ./ -size +4k -size -5M	查找当前目录下大于4k，小于5M的文件
-    find ./ -perm 0777	查找当前目录下权限为 777 的文件或目录
+    find命令功能非常强大，通常用来在特定的目录下搜索符合条件的文件，也可以用来搜索特定用户属主的文件。
+    find ./ -name test.sh    查找当前目录下所有名为test.sh的文件
+    find ./ -name '*.sh'    查找当前目录下所有后缀为.sh的文件
+    find ./ -name "[A-Z]*"    查找当前目录下所有以大写字母开头的文件
+    find /tmp -size 2M    查找在/tmp 目录下等于2M的文件
+    find /tmp -size +2M    查找在/tmp 目录下大于2M的文件
+    find /tmp -size -2M    查找在/tmp 目录下小于2M的文件
+    find ./ -size +4k -size -5M    查找当前目录下大于4k，小于5M的文件
+    find ./ -perm 0777    查找当前目录下权限为 777 的文件或目录
 ```
 
 
