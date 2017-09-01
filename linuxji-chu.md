@@ -85,5 +85,11 @@ history  上下建  历史命令
     ls -lh | more
 ```
 
+#### 清屏  clear  ctrl+l
+
+```
+
+```
+
 
 
