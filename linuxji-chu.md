@@ -244,5 +244,5 @@ history  上下建  历史命令
 
 ### 查看命令位置：which {#查看命令位置：which}
 
-
+![](/assets/import.png)
 
