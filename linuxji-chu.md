@@ -326,5 +326,13 @@ groupadd 新建组账号 groupdel 组账号 cat /etc/group 查看用户组
 
 ### 查看用户在哪些组![](/assets/impoSrt.png) {#查看用户在哪些组}
 
+### 为创建的普通用户添加sudo权限 {#为创建的普通用户添加sudo权限}
+
+```
+sudo usermod -a -G adm 用户名
+
+sudo usermod -a -G sudo 用户名
+```
+
 
 
