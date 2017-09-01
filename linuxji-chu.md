@@ -156,9 +156,14 @@ history  上下建  历史命令
 
 ```
     grep命令是一种强大的文本搜索工具，grep允许对文本文件进行模式查找。如果找到匹配模式， grep打印包含模式的所有行。
-    -v	显示不包含匹配文本的所有行（相当于求反）
-    -n	显示匹配行及行号
-    -i	忽略大小写
+    -v    显示不包含匹配文本的所有行（相当于求反）
+    -n    显示匹配行及行号
+    -i    忽略大小写
+    
+    ^a	行首,搜寻以 m 开头的行；grep -n '^a' 1.txt
+    ke$	行尾,搜寻以 ke 结束的行；grep -n 'ke$' 1.txt
+    [Ss]igna[Ll]	匹配 [] 里中一系列字符中的一个；搜寻匹配单词signal、signaL、Signal、SignaL的行；grep -n '[Ss]igna[Ll]' 1.txt
+    .	(点)匹配一个非换行符的字符；匹配 e 和 e 之间有任意一个字符，可以匹配 eee，eae，eve，但是不匹配 ee，eaae；grep -n 'e.e' 1.txt
 ```
 
 
