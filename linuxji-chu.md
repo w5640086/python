@@ -234,7 +234,6 @@ history  上下建  历史命令
     在tar命令中增加一个选项(-j)可以调用bzip2实现了一个压缩的功能，实行一个先打包后压缩的过程。
 
     压缩用法：tar -jcvf 压缩包包名 文件...(tar jcvf bk.tar.bz2 *.c)
-
     解压用法：tar -jxvf 压缩包包名 (tar jxvf bk.tar.bz2)
 ```
 
