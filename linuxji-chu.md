@@ -314,7 +314,17 @@ groupmod +三次tab键
 
 ### 添加、删除组账号：groupadd、groupdel {#添加、删除组账号：groupadd、groupdel}
 
+```
+groupadd 新建组账号 groupdel 组账号 cat /etc/group 查看用户组
+```
 
+### 修改用户所在组：usermod {#修改用户所在组：usermod}
+
+```
+使用方法：usermod -g 用户组 用户名
+```
+
+### 查看用户在哪些组![](/assets/impoSrt.png) {#查看用户在哪些组}
 
 
 
