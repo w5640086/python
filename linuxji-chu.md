@@ -25,13 +25,13 @@
 # linux基础命令大全
 
 ```
---help  帮助信息
+    --help  帮助信息
 
-man 命令手册
+    man 命令手册
 
-tab自动补全
+    tab自动补全
 
-history  上下键  历史命令
+    history  上下键  历史命令
 ```
 
 ## 文件管理
