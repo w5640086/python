@@ -83,7 +83,7 @@ history  上下键  历史命令
     ls -lh | more
 ```
 
-#### 清屏  clear  ctrl+l
+#### 清屏  clear          Ctrl+L
 
 #### 切换工作目录  cd
 
