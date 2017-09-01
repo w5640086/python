@@ -334,5 +334,7 @@ sudo usermod -a -G adm 用户名
 sudo usermod -a -G sudo 用户名
 ```
 
+### 修改文件权限：chmod {#修改文件权限：chmod}
+
 
 
