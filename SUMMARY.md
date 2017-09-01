@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [linux](linuxji-chu.md)
+  * [文件管理](linuxji-chu/wen-jian-guan-li.md)
 * [python](python.md)
 * [MySQL](mysql.md)
 * [MongoDB](mongodb.md)
