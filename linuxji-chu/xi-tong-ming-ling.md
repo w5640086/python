@@ -60,14 +60,16 @@ kill 9133 ：9133 为应用程序所对应的进程号
 ### 关机重启：reboot、shutdown、init {#关机重启：reboot、shutdown、init}
 
 ```
-reboot	重新启动操作系统
-shutdown –r now	重新启动操作系统，shutdown会给别的用户提示
-shutdown -h now	立刻关机，其中now相当于时间为0的状态
-shutdown -h 20:25	系统在今天的20:25 会关机
-shutdown -h +10	系统再过十分钟后自动关机
-init 0	关机
-init 6	重启
+reboot    重新启动操作系统
+shutdown –r now    重新启动操作系统，shutdown会给别的用户提示
+shutdown -h now    立刻关机，其中now相当于时间为0的状态
+shutdown -h 20:25    系统在今天的20:25 会关机
+shutdown -h +10    系统再过十分钟后自动关机
+init 0    关机
+init 6    重启
 ```
+
+### 检测磁盘空间：df {#检测磁盘空间：df}
 
 
 
