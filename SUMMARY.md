@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [linux](linuxji-chu.md)
   * [文件管理](linuxji-chu/wen-jian-guan-li.md)
+  * [用户、权限管理](linuxji-chu/yong-hu-3001-quan-xian-guan-li.md)
 * [python](python.md)
 * [MySQL](mysql.md)
 * [MongoDB](mongodb.md)
